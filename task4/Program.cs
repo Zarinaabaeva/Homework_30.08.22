@@ -9,30 +9,19 @@ int c = Convert.ToInt32(Console.ReadLine());
 
 int max = a;
 
-while(a > max){
-
-if(a > max){
-    Console.WriteLine(a);
-}
-else{
-    Console.WriteLine(max);
-}
-
 if(b > max){
-    Console.WriteLine(b);
-}
-else{
-    Console.WriteLine(max);
+    
+    max = b;
 }
 
 if(c > max){
-    Console.WriteLine(c);
-   
+
+    max = c;
 }
-else{
-    Console.WriteLine(max);
-}
-}
+Console.WriteLine(max);
+
+
+
 
 
 
